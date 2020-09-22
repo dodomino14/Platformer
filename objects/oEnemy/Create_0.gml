@@ -1,0 +1,10 @@
+vsp = 1;
+grav = 2.5;
+walkspd = 4;
+hsp = walkspd;
+stamina = 100;
+jumping = false;
+hp = 100;
+flash = 0;
+hitfrom = 0;
+knockback = false;
