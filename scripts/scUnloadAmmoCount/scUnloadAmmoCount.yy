@@ -6,7 +6,7 @@
     "path": "folders/Scripts/Ammo Count Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scLoadAmmoCount",
+  "name": "scUnloadAmmoCount",
   "tags": [],
   "resourceType": "GMScript",
 }

@@ -26,7 +26,7 @@ function scLoadAmmoCount() {
 	weapon = argument[0];
 	bulletspacing = argument[1];
 
-
+/*
 
 	xpos = display_get_gui_width()-bulletspacing;
 	ypos = 20;
@@ -35,7 +35,11 @@ function scLoadAmmoCount() {
 		weapon.ammoarray[i] = instance_create_layer(xpos, ypos, "GunLayer", oAmmoGUIElement);
 		xpos-=bulletspacing;
 	}
+	*/
 	
+	for(var i = 0; i<array_length_1d(weapon.ammoarray); i++){
+		weapon.ammoarray[i].visible = true;
+	}
 
 
 	with instance_create_layer(display_get_gui_width()-(bulletspacing*array_length_1d(weapon.ammoarray))-30, 0, "GunLayer",oAmmoGUIBackground){
