@@ -1,1 +1,1 @@
-x = oPlayer.x;
+event_inherited();

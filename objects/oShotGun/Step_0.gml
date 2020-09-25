@@ -35,13 +35,13 @@ if(oPlayer.weaponequipped.id == id){
 	
 		//deducts ammo in clip by 1
 		ammocount -=1;
-		timer = 15;
+		timer = maxtimer;
 	
 		//creates bullet
-		for(var i = 0; i<4; i++){
+		for(var i = 0; i<numBulletsShot; i++){
 			with(instance_create_layer(x -2, y - 4, "GunLayer", oBullet)){
 				damage = other.damage;
-				knockback = true;
+				bulletknockback = other.knockback;
 				speed = abs(oPlayer.hsp)/3  + 15;
 				direction = other.image_angle + (oGun.recoiltimer* random_range(1, oGun.recoil) + random_range(-(i*5),i*7)) ;
 				image_angle = direction;

@@ -1,1 +1,1 @@
-scFadeTransition(TRANS_MODE.RESTART);
+//scFadeTransition(TRANS_MODE.RESTART);

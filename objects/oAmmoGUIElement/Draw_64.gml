@@ -1,7 +1,7 @@
 //Sets sprite to a shotgun shell
 
 //NEEDS TO BE CHANGED SO DIFFERENT GUN TYPES SHOW DIFFERENT AMMO
-sprite_index = sShotGunShell;
+
 draw_self();
 
 

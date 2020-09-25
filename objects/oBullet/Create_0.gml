@@ -1,2 +1,2 @@
 damage = 0;
-knockback = false;
+bulletknockback = false;
