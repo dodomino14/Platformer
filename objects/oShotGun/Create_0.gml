@@ -35,6 +35,3 @@ for(var i = 0; i<array_length_1d(ammoarray);i++){
 	ammoarray[i].sprite_index = ammoarraySprite;
 	xpos-=bulletspacing;
 }
-
-
-//image_index = 0;

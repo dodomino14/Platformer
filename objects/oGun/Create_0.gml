@@ -4,3 +4,4 @@ numBulletsShot = 1;
 maxtimer = 8;
 knockback = false;
 ammoarraySprite = sPistolBullet;
+ammocount = 15;
