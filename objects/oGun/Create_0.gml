@@ -5,3 +5,4 @@ maxtimer = 8;
 knockback = false;
 ammoarraySprite = sPistolBullet;
 ammocount = 15;
+ammoarray = array_create(ammocount);
