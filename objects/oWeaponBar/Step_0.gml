@@ -24,7 +24,7 @@
 		global.weaparr[0].x = oPlayer.x;
 		global.weaparr[0].y = oPlayer.y+2;
 		oPlayer.weaponequipped = global.weaparr[0];
-		scLoadAmmoCount(oPlayer.weaponequipped, 30)
+		scLoadAmmoCount(oPlayer.weaponequipped);
 	}
 	
 	//Should probably create a script that'll do the stuff inside
@@ -35,7 +35,7 @@
 		global.weaparr[1].x = oPlayer.x;
 		global.weaparr[1].y = oPlayer.y+2;
 		oPlayer.weaponequipped = global.weaparr[1];
-		scLoadAmmoCount(oPlayer.weaponequipped, 30)
+		scLoadAmmoCount(oPlayer.weaponequipped);
 	}
 		if(keyboard_check_pressed(ord("3"))){
 		script_execute(scUnequipWeapons, noone);

@@ -1,5 +1,4 @@
 
-
 //Because player can resize window. I reset height and width every
 //frame
 w = display_get_gui_width();
