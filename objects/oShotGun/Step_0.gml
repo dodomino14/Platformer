@@ -68,5 +68,14 @@ if(oPlayer.weaponequipped.id == id){
 		y -= lengthdir_y(2, image_angle) * image_yscale;
 	
 	}
-
+	
+	//Code for throwing weapons
+	if (mouse_check_button_pressed(mb_right) && timer <= 0 && oWeaponBar.mouse_on_hotbar == false){
+		with(instance_create_layer(x,y,"GunLayer",oThrownWeapon)){
+				speed = abs(oPlayer.hsp)/3  + 15;
+				direction = other.image_angle //+ (oGun.recoiltimer* random_range(1, oGun.recoil) + random_range(-(i*5),i*7)) ;
+				image_angle = direction;
+			}
+	}
+	
 }

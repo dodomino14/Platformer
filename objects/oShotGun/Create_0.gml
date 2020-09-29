@@ -25,8 +25,8 @@ ammoarraySprite = sShotGunShell;
 
 //Initializes the ammo array for each weapon and sets everything to be invisible
 //Ammo array is used to display how many bullets are left in the gun in the GUI
-bulletspacing = 28;
-xpos = display_get_gui_width()-bulletspacing;
+bulletspacing = 22;
+xpos = display_get_gui_width()-5;
 ypos = 20;
 
 for(var i = 0; i<array_length_1d(ammoarray);i++){
